@@ -11,17 +11,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Create an employee object from form input values
-    const newEmployee = {
-      name: nameRef.current.value,
-      age: ageRef.current.value,
-      address: addressRef.current.value,
-      department: departmentRef.current.value,
-      salary: salaryRef.current.value,
-      isMarried: isMarried
-    };
-
-    // Pass the new employee data back to the parent component
+    ponent
     
       </div>
       <div>
