@@ -13,17 +13,6 @@ const EmployeeForm = ({ onAddEmployee }) => {
 
     ponent
     
-      </div>
-      <div>
-        <label>Age: </label>
-        <input type="number" ref={ageRef} required />
-      </div>
-      <div>
-        <label>Address: </label>
-        <input type="text" ref={addressRef} required />
-      </div>
-      <div>
-        <label>Department: </label>
         <select ref={departmentRef} required>
           <option value="HR">HR</option>
           <option value="IT">IT</option>
