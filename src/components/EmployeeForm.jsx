@@ -13,12 +13,6 @@ const EmployeeForm = ({ onAddEmployee }) => {
 
     ponent
     
-        <select ref={departmentRef} required>
-          <option value="HR">HR</option>
-          <option value="IT">IT</option>
-          <option value="Finance">Finance</option>
-          <option value="Sales">Sales</option>
-        </select>
       </div>
       <div>
         <label>Salary: </label>
