@@ -22,18 +22,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
     };
 
     // Pass the new employee data back to the parent component
-    onAddEmployee(newEmployee);
-
-    // Reset the form
-    e.target.reset();
-    setIsMarried(false);
-  };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Name: </label>
-        <input type="text" ref={nameRef} required />
+    
       </div>
       <div>
         <label>Age: </label>
