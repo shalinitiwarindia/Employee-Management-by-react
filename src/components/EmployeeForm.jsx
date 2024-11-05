@@ -56,13 +56,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
         <label>Salary: </label>
         <input type="number" ref={salaryRef} required />
       </div>
-      <div>
-        <label>Marital Status: </label>
-        <input type="checkbox" checked={isMarried} onChange={(e) => setIsMarried(e.target.checked)} />
-        Married
-      </div>
-      <button type="submit">Add Employee</button>
-    </form>
+  
   );
 };
 
