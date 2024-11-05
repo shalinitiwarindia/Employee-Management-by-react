@@ -35,13 +35,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
         <label>Name: </label>
         <input type="text" ref={nameRef} required />
       </div>
-      <div>
-        <label>Age: </label>
-        <input type="number" ref={ageRef} required />
-      </div>
-      <div>
-        <label>Address: </label>
-        <input type="text" ref={addressRef} required />
+      
     
   
   );
