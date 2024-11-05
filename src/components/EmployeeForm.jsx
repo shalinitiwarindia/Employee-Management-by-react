@@ -42,12 +42,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
       <div>
         <label>Address: </label>
         <input type="text" ref={addressRef} required />
-      </div>
-      <div>
-        <label>Department: </label>
-        <select ref={departmentRef} required>
-          <option value="HR">HR</option>
-     
+    
   
   );
 };
