@@ -29,4 +29,4 @@ The `EmployeeForm` component in React is designed to gather employee information
 - Font sizes, padding, and layout spacing are adjusted for smaller screens.
 - The table columns and form inputs are modified for accessibility and legibility on different devices.
 
-This layout and functionality make `EmployeeForm` an effective tool for managing and displaying employee information in a user-friendly, responsive interface. Let me know if you need further customization or styling suggestions!
+This layout and functionality make `EmployeeForm` an effective tool for managing and displaying employee information in a user-friendly, responsive interface.
